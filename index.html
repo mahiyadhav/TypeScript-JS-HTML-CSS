@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahi Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">User Login</h1>
+        <form id= form action="/" method="post" >
+            <div class="gap">
+                <label for="i1" class="gap">EMAIL_ID :</label>
+                <input type="text" id="i1" name="email" required>
+                <br><br>
+                    <span id="s1"></span>
+                    
+            </div>
+            <div class="gap">
+                <label for="i2" class="gap">PASSWORD : </label>
+                <input type="password" id="i2" name="name" required>
+                <br><br>
+                <span id="s2"></span>
+                
+            </div>
+           
+            <div>
+                <button type="submit"  id="submit">SUBMIT</button>
+            </div>
+        
+        </form>
+    </div>
+
+    <script src='app.js'></script>
+</body>
+</html>
